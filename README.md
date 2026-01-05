@@ -90,11 +90,14 @@ npm run start:dev
 
 **Location**: `/cloud-deployment-showcase`  
 **Status**: Completed  
-**Tech Stack**: Railway, Docker, Nginx, GitHub Actions, PostgreSQL, Redis
+**Tech Stack**: AWS (professional experience), Railway (portfolio deployment), Docker, Nginx, GitHub Actions, PostgreSQL, Redis
 
 Production deployment configuration for the Event-Driven Integration Service.
 
 This project focuses on deployment patterns and infrastructure configuration rather than application feature development.
+
+#### AWS Context (Professional Experience)
+While this project uses Railway for the portfolio, similar production deployments are managed at work on AWS using ECS (Fargate), RDS (PostgreSQL), ElastiCache (Redis), ALB, and IAM for access control. All services are containerized and production-ready.
 
 #### Infrastructure
 - Cloud Platform: Railway with auto-scaling
@@ -151,7 +154,7 @@ cd cloud-deployment-showcase
 - Queues: BullMQ, Redis
 - Observability: OpenTelemetry, Jaeger, Winston
 - Containerization: Docker, Docker Compose
-- Cloud Platforms: Railway
+- Cloud Platforms: AWS (production workloads at work), Railway (portfolio deployments)
 - Load Balancing: Nginx
 - CI/CD: GitHub Actions
 - Testing: Jest, Supertest
